@@ -6,15 +6,18 @@
      var res=(mass)/(height**2)
      return res
  }
+ console.log('-------Calcualted BMI------')
  jeff = calculateBmi(70,1.9)
  console.log(`BMI of jeff is ${jeff}`)
  todd = calculateBmi(65,1.7)
  console.log(`BMI of todd is ${todd}`)
 
- // Comparing their BMI
+console.log('----------Getting the boolean value-----')
 
- let isHigh = (jeff > todd) ? "true" : "false"
+let isHigh = (jeff > todd) ? "true" : "false"
+
+console.log(isHigh)
  
- // Display who has highest BMI
+console.log('----------Comparing their BMI------')
 
  console.log(`It is ${isHigh} that jeff has high BMI than todd`)
