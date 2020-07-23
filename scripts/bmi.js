@@ -3,7 +3,7 @@
  let todd
  function calculateBmi(mass,height)
  {
-     let res
+     var res
      res=(mass)/(height*height)
      return res
  }
